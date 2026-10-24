@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background: linear-gradient( pink,rgb(221, 91, 221));
+  /* background: radial-gradient(red, yellow,green); */
+  /* background: conic-gradient( red 10%, yellow 40%, green 50%); */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+}
+.product-card{
+    width: 370px;
+    background-color: rgba(175, 10, 10, 0.094);
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+.product-image{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+.product-info{
+    padding: 20px;
+    text-align: center;
+}
+.category{
+    color: darkmagenta;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+}
+.product-info h2{
+    color: cadetblue;
+    font-size: 25px;
+
+}
+.description{
+    color: rgb(156, 74, 74);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.old-price{
+    color: #d70d0d;
+    font-size: 20px;
+    margin-right: 5px;
+    text-decoration: line-through;
+
+}
+.new-price{
+    color: rgb(17, 19, 17);
+    font-size:20px ;
+    font-weight: bold;
+}
+.shop-btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.shop-btn:hover{
+    background-color: grey;
+    border: 2px solid black;
+    color: burlywood;
+}
